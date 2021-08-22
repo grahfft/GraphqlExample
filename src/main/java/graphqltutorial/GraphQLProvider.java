@@ -16,7 +16,6 @@ import javax.annotation.PostConstruct;
 import java.io.IOException;
 import java.net.URL;
 
-
 import static graphql.schema.idl.TypeRuntimeWiring.newTypeWiring;
 
 @Component
@@ -50,11 +49,12 @@ public class GraphQLProvider {
     private RuntimeWiring buildWiring() {
         return RuntimeWiring.newRuntimeWiring()
                 .type(newTypeWiring("Query")
-                        .dataFetcher("bookById", graphQLDataFetchers.getBookByIdDataFetcher()))
+                        .dataFetcher("bookById", graphQLDataFetchers.getBookByIdDataFetcher())
+                        .dataFetcher("authorByName", graphQLDataFetchers.getAuthorLastNameDataFetcher()))
                 .type(newTypeWiring("Book")
                         .dataFetcher("author", graphQLDataFetchers.getAuthorDataFetcher())
                         // This line is new: we need to register the additional DataFetcher
-                        .dataFetcher("pageCount", graphQLDataFetchers.getPageCountDataFetcher()))
+                        .dataFetcher("totalPages", graphQLDataFetchers.getPageCountDataFetcher()))
                 .build();
     }
 }
