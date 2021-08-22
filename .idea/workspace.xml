@@ -2,7 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13f1eb7c-ff4d-4088-8fc8-0dd6d48c9b35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphqltutorial/GraphQLDataFetchers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphqltutorial/GraphQLProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.graphqls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/DevProfile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/Profile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/ProfileConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/TestProfile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/HelloControllerIT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/HelloControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/gs-spring-boot-0.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/hello.HelloControllerIT.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/hello.HelloControllerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-hello.HelloControllerIT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-hello.HelloControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphqltutorial/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/DevProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/Profile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/ProfileConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/TestProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/HelloControllerIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/HelloControllerTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +85,12 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PersonalProjects\MyFirstJavaProject\src\main\java" />
     </key>
@@ -96,8 +144,8 @@
       <method v="2" />
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="MyFirstJavaProject.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.Application" />
+      <module name="GraphqlExample.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,6 +192,7 @@
       <workItem from="1575046886668" duration="6528000" />
       <workItem from="1575384456664" duration="10000" />
       <workItem from="1629642061852" duration="57000" />
+      <workItem from="1629647372807" duration="2886000" />
     </task>
     <servers />
   </component>
@@ -151,41 +200,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="432" y="163" key="#Project_Structure" timestamp="1575046911015">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state x="700" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1629647662878">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="432" y="163" key="#Project_Structure/0.0.1680.1010@0.0.1680.1010" timestamp="1575046911015" />
-    <state x="570" y="251" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575050132390">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state x="700" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1629647662878" />
+    <state x="756" y="379" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1629647903553">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="570" y="251" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1575050132390" />
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1575244012524">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state x="756" y="379" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1629647903553" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1629649140433">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1575244012524" />
-    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1575244012524">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1575244012524" />
-    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1575244012524">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1575244012524" />
-    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1575244012524">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1575244012524" />
-    <state x="341" y="147" key="SettingsEditor" timestamp="1575037843133">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="341" y="147" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1575037843133" />
-    <state x="541" y="328" key="com.intellij.ide.util.TipDialog" timestamp="1575384459582">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="541" y="328" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1575384459582" />
-    <state x="222" y="206" key="new project wizard" timestamp="1575046896937">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="222" y="206" key="new project wizard/0.0.1680.1010@0.0.1680.1010" timestamp="1575046896937" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629649140433" />
   </component>
 </project>
