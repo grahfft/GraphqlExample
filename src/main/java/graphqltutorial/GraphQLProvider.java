@@ -54,7 +54,7 @@ public class GraphQLProvider {
                 .type(newTypeWiring("Book")
                         .dataFetcher("author", graphQLDataFetchers.getAuthorDataFetcher())
                         // This line is new: we need to register the additional DataFetcher
-                        .dataFetcher("totalPages", graphQLDataFetchers.getPageCountDataFetcher()))
+                        .dataFetcher("pageCount", graphQLDataFetchers.getPageCountDataFetcher()))
                 .build();
     }
 }
